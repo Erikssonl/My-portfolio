@@ -1,5 +1,4 @@
 body{
-  background: url(/src/style/Portfolio\ 2.2.jpg) no-repeat;
-  background-size: cover;
-
+  display: flex;
+  background: rgba(46, 46, 46, 0.90);
 }
