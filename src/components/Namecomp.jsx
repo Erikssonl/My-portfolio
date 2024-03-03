@@ -1,9 +1,12 @@
 const Namecomp = () => {
+
+    const name = "LOUISE ERIKSSON"
+    const title = "Frontend Developer"
     return ( 
         <div className="nameComp">
             <div id="Name">
-                <h1>LOUISE ERIKSSON</h1>
-                <h2>Frontend Developer</h2>
+                <h1>{name}</h1>
+                <h2>{title}</h2>
             </div>
         </div>
 

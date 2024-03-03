@@ -17,31 +17,28 @@ body{
 }
 
 .nameComp{
-  width: 2038px;
-  height: 1370px;
-  flex-shrink: 0;
-
-  /* border-radius: 2038px; */
-  border-radius: 0 0 1370px 1370px;
-  background: #E8E6E6;
-
   position: relative;
-  top: -720px;
-  left: -279px;
-  /* right: -379px; */
-
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #E8E6E6;
+  clip-path: ellipse(70% 80% at 48% 26%);
+  display: flex;
+  align-items: center;
 
 }
 
 
-/* .name{
+.name{
   display: inline-flex;
   padding: 20px;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 54px;
 
-} */
+}
 
 /* .name h1 {
   color: #6C1196;
