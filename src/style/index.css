@@ -33,16 +33,26 @@ body{
   gap: 54px;
 }
 
+img{
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+
+#name{
+  z-index: 100;
+  position: absolute;
+}
 
 h1 {
   color: #6C1196;
   text-align: center;
+  font-family: Inter;
   width: 721px;
   height: 153px;
 
   /* headline */
   text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
-  font-size: 64px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -57,7 +67,7 @@ h2 {
   text-align: right;
   text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
   font-family: Inter;
-  font-size: 32px;
+  font-size: 37px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
