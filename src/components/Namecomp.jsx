@@ -1,4 +1,3 @@
-import '../style/App.css'
 import circle1 from '../img/circle1.jpg'
 
 const Namecomp = () => {
