@@ -50,13 +50,13 @@ h1 {
   width: 721px;
   height: 153px;
 
-  /* headline */
   text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
   font-size: 70px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 25.6px;
+  margin-bottom: 20px;
 }
 
 h2 {

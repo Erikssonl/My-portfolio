@@ -1,10 +1,10 @@
-import '../style/App.css'
 import circle1 from '../img/circle1.jpg'
 
 const Namecomp = () => {
 
     const name = "LOUISE ERIKSSON"
     const title = "Frontend Developer"
+    
     return ( 
         <div className="nameComp">
             <img src={circle1} alt="" />
