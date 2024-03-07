@@ -1,4 +1,5 @@
 import circle1 from '../img/circle1.jpg'
+import styles from "../style/Namecomp-style.module.css";
 
 const Namecomp = () => {
 
@@ -7,13 +8,12 @@ const Namecomp = () => {
     
     return ( 
         <div className="nameComp">
-            <img src={circle1} alt="" />
-            <div id="Name">
-                <h1>{name}</h1>
-                <h2>{title}</h2>
+            <img className={styles.img} src={circle1} alt="" />
+            <div className="Name">
+                <h1 className={styles.h1}>{name}</h1>
+                <h2 className={styles.h2}>{title}</h2>
             </div>
         </div>
-
      );
 }
  

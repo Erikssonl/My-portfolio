@@ -33,17 +33,17 @@ body{
   gap: 54px;
 }
 
-img{
-  position: absolute;
-  mix-blend-mode: multiply;
-}
-
 #name{
   z-index: 100;
   position: absolute;
 }
 
-h1 {
+/* img{
+  position: absolute;
+  mix-blend-mode: multiply;
+} */
+
+/* h1 {
   color: #6C1196;
   text-align: center;
   font-family: Inter;
@@ -57,9 +57,9 @@ h1 {
   line-height: normal;
   letter-spacing: 25.6px;
   margin-bottom: 20px;
-}
+} */
 
-h2 {
+/* h2 {
   height: 48px;
   align-self: stretch;
 
@@ -72,4 +72,4 @@ h2 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 11.2px;
-}
+} */
