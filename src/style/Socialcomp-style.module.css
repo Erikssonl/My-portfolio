@@ -1,0 +1,30 @@
+.img{
+    mix-blend-mode: multiply;
+    position: relative;
+    align-self: flex-end;
+}
+
+h2{
+    color: #6C1196;
+
+    text-align: center;
+    text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 15px;
+}
+
+.footer{
+    min-height: 30vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #E8E6E6;
+    padding: 20px 0;
+    gap: 20vw;
+}
+
