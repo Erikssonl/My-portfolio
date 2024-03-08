@@ -1,0 +1,42 @@
+
+.aboutMe{
+    color: #6C1196;
+
+    text-align: center;
+    text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 15px;
+    margin: 50px 0;
+}
+
+.me{
+    border-radius: 50%;
+}
+
+.img{
+    mix-blend-mode: multiply;
+}
+
+.groupSection{
+    display: inline-flex;
+    align-items: center;
+    gap: 100px;
+    margin: 0 20px;
+
+}
+
+.aboutSection{
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 100px;
+}
+
+.text{
+    font-size: 20px;
+}

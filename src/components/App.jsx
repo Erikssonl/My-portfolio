@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../style/App.css'
-import '../style/index.css'
 import Namecomp from './Namecomp'
+import Aboutcomp from './Aboutcomp'
 
 function App() {
 
@@ -9,6 +9,10 @@ function App() {
     <>
     <div className="header">
       <Namecomp />
+    </div>
+    <div className="main">
+      <Aboutcomp/>
+
     </div>
     </>
   )
