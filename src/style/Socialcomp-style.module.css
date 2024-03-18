@@ -1,0 +1,47 @@
+
+.footer{
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    background: #E8E6E6;
+}
+
+.socialDiv{
+    margin-top: 10vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 17vw;
+}
+
+h2{
+    color: #6C1196;
+    
+    text-align: center;
+    text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 15px;
+}
+
+.icones {
+    margin-top: 10vh;
+    display: flex;
+}
+
+.a{
+    flex: 1 0 0;
+    align-self: center;
+    padding: 15px;
+}
+
+
+.img{
+    margin-top: 10vh;
+    mix-blend-mode: multiply;
+    position: relative;
+}

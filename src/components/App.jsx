@@ -3,6 +3,7 @@ import '../style/App.css'
 import Namecomp from './Namecomp'
 import Aboutcomp from './Aboutcomp'
 import Skillcomp from './Skillcomp';
+import Socialcomp from './Socialcomp';
 
 function App() {
 
@@ -16,8 +17,10 @@ function App() {
     <div className="main">
       <Aboutcomp/>
       <Skillcomp skills={skills}/>
-
     </div>
+    <footer>
+      <Socialcomp/>
+    </footer>
     </>
   )
 }
