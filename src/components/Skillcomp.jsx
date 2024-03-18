@@ -1,6 +1,9 @@
 import styles from "../style/Skillcomp-style.module.css";
 
 const Skillcomp = (props) => {
+
+    const skills = props.skills;
+    
   return (
     <>
         <main className={styles.content}>
@@ -12,7 +15,7 @@ const Skillcomp = (props) => {
             <div className={styles.skills}>
                 <h2 className={styles.h2}>Skills</h2>
                 <div className={styles.skillGroup}>
-                    {props.skills.map((skill, idx) => (
+                    {skills.map((skill, idx) => (
                         <>
                             <p className={styles.p} key={idx}>{skill}</p>
                         </>
