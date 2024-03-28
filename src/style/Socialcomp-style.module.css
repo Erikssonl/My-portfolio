@@ -39,6 +39,10 @@ h2{
     padding: 15px;
 }
 
+.a:hover{
+    filter: invert(6%) sepia(81%) saturate(6869%) hue-rotate(282deg) brightness(119%) contrast(94%);
+}
+
 
 .img{
     margin-top: 10vh;
