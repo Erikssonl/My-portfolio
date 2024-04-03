@@ -23,22 +23,25 @@ body{
 footer{
   background: #E8E6E6;
 }
+
 .nameComp{
   position: relative;
+  overflow: hidden;
+  overflow-y: auto;
   width: 100vw;
   height: 120vh;
   clip-path: ellipse(75% 80% at 50% 20%);
 
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#name{
+/* #name{
   z-index: 100;
   position: absolute;
-}
+} */
 
 .aboutComp{
   position: relative;
