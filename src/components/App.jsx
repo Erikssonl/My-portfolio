@@ -4,6 +4,7 @@ import Namecomp from './Namecomp'
 import Aboutcomp from './Aboutcomp'
 import Skillcomp from './Skillcomp';
 import Socialcomp from './Socialcomp';
+import Projectcomp from './Projectcomp';
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
     <div className="main">
       <Aboutcomp/>
       <Skillcomp skills={skills}/>
+    </div>
+    <div className='projectComp'>
+      <Projectcomp />
     </div>
     <footer>
       <Socialcomp/>

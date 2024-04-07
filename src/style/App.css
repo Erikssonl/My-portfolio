@@ -55,6 +55,9 @@ footer{
   align-items: center;
 }
 
+.projectComp{
+  background: linear-gradient(180deg, rgba(220, 150, 244, 0.56) 0%, rgba(86, 0, 126, 0.72) 74.79%, #D9D9D9 100%), linear-gradient(180deg, rgba(220, 150, 244, 0.71) 14.4%, rgba(86, 0, 126, 0.90) 56.4%, #2E2E2E 100%);
+}
 
 
 /* img{
