@@ -5,12 +5,42 @@
     text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
-    font-size: 48px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 15px;
+    letter-spacing: 0.938rem;
     margin: 50px 0;
+}
+
+.circle2{
+    position: absolute;
+    opacity: 0.5;
+    transform: translateY(calc(var(--scrollY) * 0.1));
+}
+
+.aCircleBig1{
+    top: 20%;
+    left: 4%;
+}
+.aCircleBig2{
+    top: 87%;
+    left: 1%;
+}
+
+.aCirclMs1{
+    top: 43%;
+    left: 18%;
+}
+
+.aCircleSmall1{
+    top: 54%;
+    left: 6%;
+}
+
+.aCircleMedium1{
+    top: 66%;
+    left: 13%;
 }
 
 .me{
@@ -22,11 +52,12 @@
 }
 
 .groupSection{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 100px;
+    gap: 30vw;
     margin: 0 20px;
-
+    padding-top: 7vh;
 }
 
 .aboutSection{
@@ -37,7 +68,7 @@
 }
 
 .text{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 @keyframes slideInFromRight {
