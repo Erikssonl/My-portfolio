@@ -1,9 +1,16 @@
 import circle3 from '../img/circle3.jpg'
 import styles from "../style/Socialcomp-style.module.css";
+import useScrollPosition from './useScrollPosition';
+import circlems from '../img/circlems.png'
+import circlesmall from '../img/circlesmall.png'
+import circlemedium from '../img/circlemedium.png'
+
 
 const Socialcomp = () => {
+    useScrollPosition();
+    
   return (
-    <>
+    <div className={styles.footerWrap}>
         <div className={styles.footer}>
             <div className={styles.socialDiv}>
                 <h2 className={styles.h2}>LETS <br />CONNECT</h2>
@@ -31,10 +38,18 @@ const Socialcomp = () => {
                 </div>
 
             </div>
-
-            <img className={styles.img} src={circle3} alt="" />
+            <div>
+                <img className={`${styles.circle3} ${styles.sCirclMs1}`} src={circlems} alt="" />
+                <img className={`${styles.circle3} ${styles.sCircleSmall1}`} src={circlesmall} alt="" />
+                <img className={`${styles.circle3} ${styles.sCircleMedium1}`} src={circlemedium} alt="" />
+                <img className={`${styles.circle3} ${styles.sCircleSmall2}`} src={circlesmall} alt="" />
+                <img className={`${styles.circle3} ${styles.sCircleSmall3}`} src={circlesmall} alt="" />
+                <img className={`${styles.circle3} ${styles.sCirclMs2}`} src={circlems} alt="" />
+                <img className={`${styles.circle3} ${styles.sCircleMedium2}`} src={circlemedium} alt="" />
+            </div>
+            {/* <img className={styles.img} src={circle3} alt="" /> */}
         </div>
-    </>
+    </div>
   )
 }
 export default Socialcomp

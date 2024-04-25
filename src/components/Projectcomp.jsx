@@ -2,6 +2,7 @@ import styles from "../style/Projectcomp-style.module.css";
 import epicEats from '../img/epicEats.png';
 import portfolio from '../img/portfolio.png';
 import ceresDam from '../img/ceresDam.png';
+import candyHub from '../img/candyHub.png'
 
 const Projectcomp = () => {
   return (
@@ -21,8 +22,8 @@ const Projectcomp = () => {
                 <img className={styles.portfolioImg} src={portfolio} alt="" />
             {/* </div> */}
             {/* <div className="ceresDam"> */}
-                <img className={styles.ceresDamImg} src={ceresDam} alt="" />
-                <div className={styles.ceresDamInfo}>
+                <img className={styles.candyHubImg} src={candyHub} alt="" />
+                <div className={styles.candyHubInfo}>
                     <p></p>
                 </div>
             {/* </div> */}
