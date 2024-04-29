@@ -1,0 +1,87 @@
+.projectWrap{
+    padding: 10vh 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    row-gap: 13vh;
+    justify-items: center;
+}
+
+.projects{
+    color: #000;
+    text-align: center;
+    text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 19.2px;
+    padding-top: 6vh;
+}
+
+
+.epicEatsImg{
+    grid-row: 1;
+    grid-column: 1;
+    height: auto;
+    width: 100%;
+    margin-left: 10vw;
+    box-shadow: 20px 50px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.epicEatsInfo{
+    /* display: flex; */
+    /* flex-direction: column; */
+    grid-row: 1;
+    grid-column: 2;
+    width: 36vw;
+    height: auto;
+}
+
+.portfolioInfo{
+    grid-row: 2;
+    grid-column: 1;
+    width: 36vw;
+    height: auto;
+}
+
+.portfolioImg{
+    grid-row: 2;
+    grid-column: 2;
+    height: auto;
+    width: 100%;
+    margin-right: 10vw;
+    box-shadow: 20px 50px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.candyHubImg{
+    grid-row: 3;
+    grid-column: 1;
+    height: auto;
+    width: 100%;
+    margin-left: 10vw;
+    box-shadow: 20px 50px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.candyHubInfo{
+    grid-row: 3;
+    grid-column: 2;
+    width: 36vw;
+    height: auto;
+}
+
+.epicEatsInfo,
+.portfolioInfo,
+.candyHubInfo{
+    background-color: rgba(232, 230, 230, 0.40);
+    box-shadow: 20px 50px 50px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 3%;
+    position: relative;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 0;
+    margin: 3%;
+}

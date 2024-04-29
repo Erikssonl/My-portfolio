@@ -17,13 +17,13 @@
 }
 .circleBig1{
     position: absolute;
-    top: 7%;
-    left: 28%;
+    top: 6%;
+    left: 27%;
 }
 .circleBig2{
     position: absolute;
-    top: 55%;
-    left: 24%;
+    top: 58%;
+    left: 22%;
 }
 
 .circleMs1,
@@ -34,18 +34,18 @@
 }
 .circleMs1{
     position: absolute;
-    top: 22%;
-    left: 40.3%;
+    top: 21%;
+    left: 41%;
 }
 .circleMs2{
     position: absolute;
-    top: 46%;
-    left: 46.4%;
+    top: 51%;
+    left: 47%;
 }
 .circleMs3{
     position: absolute;
-    top: 62%;
-    left: 62%;
+    top: 63%;
+    left: 63%;
 }
 
 .circleMedium1,
@@ -56,17 +56,17 @@
 }
 .circleMedium1{
     position: absolute;
-    top: 38.8%;
+    top: 40%;
     left: 34.3%;
 }
 .circleMedium2{
     position: absolute;
-    top: 26%;
-    left: 53.3%;
+    top: 23%;
+    left: 54%;
 }
 .circleMedium3{
     position: absolute;
-    top: 67%;
+    top: 72%;
     left: 50%;
 }
 
@@ -79,23 +79,23 @@
 }
 .circleSmall1{
     position: absolute;
-    top: 33%;
+    top: 32%;
     left: 29%;
 }
 .circleSmall2{
     position: absolute;
-    top: 62%;
-    left: 42%;
+    top: 66%;
+    left: 39%;
 }
 .circleSmall3{
     position: absolute;
-    top: 37%;
-    left: 67%;
+    top: 39%;
+    left: 66%;
 }
 .circleSmall4{
     position: absolute;
-    top: 50%;
-    left: 57.8%;
+    top: 52%;
+    left: 58%;
 }
 
 
@@ -115,14 +115,14 @@
     width: 721px;
     height: 153px;
   
-    text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
+    text-shadow: 20px 40px 30px rgba(0, 0, 0, 0.35);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.15);
-    font-size: 70px;
+    font-size: 4.375rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 25px;
+    letter-spacing: 1.563rem;
     gap: 3vh;
     margin-bottom: 8%;
 }
@@ -131,12 +131,12 @@
     align-self: stretch;
     color: #000;
     text-align: right;
-    text-shadow: 4px 7px 7px rgba(0, 0, 0, 0.40);
-    font-size: 37px;
+    text-shadow: 20px 40px 30px rgba(0, 0, 0, 0.35);
+    font-size: 2.313rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 9px;
+    letter-spacing: 0.563rem;
 }
 
 /* .circleBig1{
