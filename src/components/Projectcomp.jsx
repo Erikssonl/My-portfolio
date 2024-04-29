@@ -1,10 +1,10 @@
 import styles from "../style/Projectcomp-style.module.css";
 import epicEats from '../img/epicEats.png';
 import portfolio from '../img/portfolio.png';
-import candyHub from '../img/candyHub.png'
+import candyHub1 from '../img/candyHub1.png'
 import { useRef } from "react";
 
-const Projectcomp = () => {
+const Projectcomp = ({infoEe, infoP, infoCh}) => {
     const epicEatsRef = useRef(null);
     const portfolioRef = useRef(null);
     const candyHubRef = useRef(null);
@@ -40,12 +40,28 @@ const Projectcomp = () => {
                 onMouseLeave={() => handleMouseLeave(epicEatsRef)}
                 />
                 <div className={styles.epicEatsInfo}>
-                    <p></p>
+                    <p>{infoEe}</p>
+                    <div className={styles.buttons}>
+                        <a href="" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+                        <a href="https://github.com/Erikssonl/LE-foodApp/tree/main" target='_blank'>
+                            <button>Source code</button>
+                        </a>
+                    </div>
                 </div>
             {/* </div> */}
             {/* <div className={styles.portfolio}> */}
                 <div className={styles.portfolioInfo}>
-                    <p></p>
+                    <p>{infoP}</p>
+                    <div className={styles.buttons}>
+                        <a href="" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+                        <a href="https://github.com/Erikssonl/My-portfolio/tree/main" target='_blank'>
+                            <button>Source code</button>
+                        </a>
+                    </div>
                 </div>
                 <img 
                 className={styles.portfolioImg} 
@@ -59,14 +75,22 @@ const Projectcomp = () => {
             {/* <div className={styles.candyHub}> */}
                 <img 
                 className={styles.candyHubImg} 
-                src={candyHub} 
+                src={candyHub1} 
                 alt="" 
                 ref={candyHubRef}
                 onMouseMove={(e) => handleMouseMove(e, candyHubRef)}
                 onMouseLeave={() => handleMouseLeave(candyHubRef)}
                 />
                 <div className={styles.candyHubInfo}>
-                    <p></p>
+                    <p>{infoCh}</p>
+                    {/* <div className={styles.buttons}>
+                        <a href="" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+                        <a href="" target="_blank">
+                            <button>Source code</button>
+                        </a>
+                    </div> */}
                 </div>
             {/* </div> */}
         </div>
