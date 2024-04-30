@@ -58,7 +58,7 @@ const Projectcomp = ({infoEe, infoP, infoCh}) => {
                         </div>
                     </div>
                     <div className={styles.buttons}>
-                        <a href="" target="_blank">
+                        <a href="https://epiceats-le.netlify.app/" target="_blank">
                             <button>Live Demo</button>
                         </a>
                         <a href="https://github.com/Erikssonl/LE-foodApp/tree/main" target='_blank'>
@@ -87,7 +87,7 @@ const Projectcomp = ({infoEe, infoP, infoCh}) => {
                         </div>
                     </div>
                     <div className={styles.buttons}>
-                        <a href="" target="_blank">
+                        <a href="https://le-frontend.netlify.app/" target="_blank">
                             <button>Live Demo</button>
                         </a>
                         <a href="https://github.com/Erikssonl/My-portfolio/tree/main" target='_blank'>
