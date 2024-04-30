@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import '../style/App.css'
 import Namecomp from './Namecomp'
 import Aboutcomp from './Aboutcomp'
 import Skillcomp from './Skillcomp';
 import Socialcomp from './Socialcomp';
 import Projectcomp from './Projectcomp';
+import NavbarComp from './NavbarComp';
 
 function App() {
 
@@ -13,20 +14,40 @@ function App() {
   const infoP = "My portfolio is a personal project where I've built this website using React.js, aiming to serve as a presentation and representation of myself as both a person and a frontend developer. In this project, I've experimented with various design features and animations using CSS. This website will likely remain under constant development as I enjoy exploring new styles and functionalities to enhance my coding skills."
   const infoCh = "This project is a work in progress and will go live shortly"
   const infoMe = "Hello, I am an Frontend Developer student seeking new and developmental challenges. I am often described as cheerful, positive, and proactive. I embrace new challenges and  I enjoy being creative. I always approach tasks with a positive mindset, aiming to become the best Frontend Developer I can be."
+  
+  const headerRef = useRef(null);
+  const aboutRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const scrollToSection = (sectionId) => {
+    const refs = {
+      'home': headerRef,
+      'about': aboutRef,
+      'projects': projectsRef,
+      'contact': contactRef
+    };
+
+    const ref = refs[sectionId];
+    if (ref) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
-    <div className="header">
+    <NavbarComp scrollToSection={scrollToSection} />
+    <div className="header" ref={headerRef}>
       <Namecomp />
     </div>
-    <div className="main">
+    <div className="main" ref={aboutRef}>
       <Aboutcomp infoMe={infoMe}/>
       <Skillcomp skills={skills}/>
     </div>
-    <div className='projectComp'>
+    <div className='projectComp' ref={projectsRef}>
       <Projectcomp infoEe={infoEe} infoP={infoP} infoCh={infoCh}/>
     </div>
-    <footer>
+    <footer ref={contactRef}>
       <Socialcomp/>
     </footer>
     </>
