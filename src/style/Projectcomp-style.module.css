@@ -16,9 +16,19 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 19.2px;
-    padding-top: 6vh;
+    padding-top: 15vh;
 }
 
+.infoWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.svgWrapper{
+    display: flex;
+    gap: 1vw;
+}
 
 .epicEatsImg{
     grid-row: 1;

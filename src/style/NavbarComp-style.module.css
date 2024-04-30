@@ -4,11 +4,11 @@
 
 .navbar {
     display: flex;
-    transition: top 0.3s, background-color 0.3s; /* Lägg till övergång för bakgrundsfärgen */
+    transition: top 0.3s, background-color 0.3s; 
     justify-content: flex-end;
     padding: 2% 6%;
     gap: 3%;
-    background-color: transparent; /* Använd transparent bakgrundsfärg för navbaren */
+    background-color: transparent;
     text-decoration: none;
     list-style-type: none;
     position: fixed;
@@ -17,9 +17,10 @@
 }
 
 .navbar.scrolled {
-    background-color: #E8E6E6; /* Ändra bakgrundsfärgen när den scrollas ner */
+    background-color: #E8E6E6;
 }
 
 .navbar li {
     font-size: 1.25rem;
+    cursor: pointer;
 }
