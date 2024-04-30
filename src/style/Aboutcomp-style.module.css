@@ -16,7 +16,18 @@
 .circle2{
     position: absolute;
     opacity: 0.5;
+    /* transform: translateY(calc(var(--scrollY) * 0.1)); */
+}
+
+.aCircleBig1,
+.aCircleBig2,
+.aCirclMs1{
     transform: translateY(calc(var(--scrollY) * 0.1));
+}
+
+.aCircleMedium1,
+.aCircleSmall1{
+    transform: translateY(calc(var(--scrollY) * 0.2));
 }
 
 .aCircleBig1{
@@ -34,12 +45,12 @@
 }
 
 .aCircleSmall1{
-    top: 54%;
+    top: 44%;
     left: 6%;
 }
 
 .aCircleMedium1{
-    top: 66%;
+    top: 56%;
     left: 13%;
 }
 

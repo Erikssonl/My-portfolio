@@ -4,16 +4,44 @@
     mix-blend-mode: multiply;
 }
 
+@keyframes flyIn {
+    0% {
+        transform: translate(-100%, -100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 0.5;
+    }
+}
+
+/* @keyframes growIn {
+    0% {
+        transform: scale(0.1) translate(0, 0); 
+        opacity: 0; 
+    }
+    100% {
+        transform: scale(1) translate(0, 0); 
+        opacity: 0.5; 
+    }
+} */
+
+
 .circle{
     position: absolute;
     opacity: 0.5;
+    transition: transform 1s ease, opacity 1s ease;
     transform: translateY(calc(var(--scrollY) * 0.1));
+    animation: flyIn 1s forwards;
+    /* animation: growIn 1s forwards; */
 }
+
 
 .circleBig1, 
 .circleBig2{
     z-index: 6;
-    /* transform: translateY(calc(var(--scrollY) * 0.1)); */
+    transform: translateY(calc(var(--scrollY) * 0.1));
 }
 .circleBig1{
     position: absolute;
@@ -30,7 +58,7 @@
 .circleMs2,
 .circleMs3{
     z-index: 2;
-    /* transform: translateY(calc(var(--scrollY) * 0.1)); */
+    transform: translateY(calc(var(--scrollY) * 0.1));
 }
 .circleMs1{
     position: absolute;
@@ -52,7 +80,7 @@
 .circleMedium2,
 .circleMedium3{
     z-index: 4;
-    /* transform: translateY(calc(var(--scrollY) * 0.1)); */
+    transform: translateY(calc(var(--scrollY) * 0.2));
 }
 .circleMedium1{
     position: absolute;
@@ -75,7 +103,7 @@
 .circleSmall3,
 .circleSmall4{
     z-index: 9;
-    /* transform: translateY(calc(var(--scrollY) * 0.1)); */
+    transform: translateY(calc(var(--scrollY) * 0.2));
 }
 .circleSmall1{
     position: absolute;
@@ -97,7 +125,6 @@
     top: 52%;
     left: 58%;
 }
-
 
 .textContainer {
     display: flex;
